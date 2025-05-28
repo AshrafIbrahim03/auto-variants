@@ -1,0 +1,14 @@
+[package]
+name = "auto-variants"
+version = "0.1.0"
+edition = "2024"
+license-file = "LICENSE.md"
+keywords = ["enum", "variants", "derive", "macro"]
+categories = ["development-tools", "rust-patterns"]
+description = "A macro that exposes a function that returns all enum variants."
+readme = "README.md"
+repository = "https://github.com/AshrafIbrahim03/auto-variants.git"
+
+
+[dependencies]
+variants-derive = { version = "0.1.0", path = "variants-derive" }
