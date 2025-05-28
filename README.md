@@ -16,8 +16,9 @@ let correct_list = [
   Directions::Right,
 ];
 assert_eq!(correct_list, Directions::variants());
+assert_eq!(correct_list, Directions::VARIANTS);
 ```
 
 This is a pretty small example, but might save a lot of time if it's a big enum. 
 
-This is implemented so that a fixed sized array is made at compile time that is made up of all enum variants. A reference is returned when using the `variants` method so this function is very lean.
+This is implemented so that a fixed sized array is made at compile time that is made up of all enum variants. A reference is returned when using the `variants` method, and the `VARIANTS` is the constant array that `variants` references.
