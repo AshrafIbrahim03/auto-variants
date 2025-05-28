@@ -11,4 +11,4 @@ repository = "https://github.com/AshrafIbrahim03/auto-variants.git"
 
 
 [dependencies]
-variants-derive = { version = "0.1.0", path = "variants-derive" }
+variants-derive = { version = "*", path = "variants-derive" }
